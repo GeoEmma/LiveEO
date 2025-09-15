@@ -35,21 +35,24 @@ Important: Each chosen pair will become a training sample, good training data = 
  
 ## Deliverables
 ### Objective 1: Explore data
-- [] Written report - diff between SAR and optical, and use cases: Section name "Satellite data exploration"
-- [] Table in report - summarise Capella files and metadata showing stats, maps: Section name "Exploratory data analysis"
+- [ ] Written report - diff between SAR and optical, and use cases: Section name "Satellite data exploration"
+- [ ] Table in report - summarise Capella files and metadata showing stats, maps: Section name "Exploratory data analysis"
 
 ### Objective 2: Assemble Capella pairs
-- [] Table in report - summary (count) of all filtered pairs found
-- [] Map in report - display matching pairs
-- [] Written report - write out metadata steps and filtering methods: Section name "Filtering methods"
+- [ ] Table in report - summary (count) of all filtered pairs found
+- [ ] Map in report - display matching pairs
+- [ ] Written report - write out metadata steps and filtering methods: Section name "Filtering methods"
 
 ### Bonus objective: Find Quartets
-- [] Table in report - summary (count) of all quartets found
-- [] Map in report - display matching quartets
+- [ ] Table in report - summary (count) of all quartets found
+- [ ] Map in report - display matching quartets
 
 ### Repository
 [https://github.com/GeoEmma/LiveEO](https://github.com/GeoEmma/LiveEO)
 
 ### Presentation
 [canva.com/](https://www.canva.com/design/DAGzCb8joTM/nPVwQkb3AdVZH0OdEDPAdw/edit)
+
+### Report
+[Report word doc](https://kingstonuniversity-my.sharepoint.com/:w:/r/personal/k2039384_kingston_ac_uk/_layouts/15/Doc.aspx?sourcedoc=%7BC170893D-C297-4B5C-B8FB-1690E6A492DE%7D&file=Emma%20Underwood%20LiveEO%20DE%20Intern%20Report%20Sept%202025.docx&action=default&mobileredirect=true)
 
