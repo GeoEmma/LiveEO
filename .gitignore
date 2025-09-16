@@ -1,0 +1,14 @@
+
+# Large data files - don't commit these
+data/raw/*.parquet
+data/raw/*.tif  
+data/raw/*.zip
+
+# Temporary processing files
+*.tmp
+*.log
+.ipynb_checkpoints/
+
+# OS generated files
+.DS_Store
+Thumbs.db
