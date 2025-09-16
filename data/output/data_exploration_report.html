@@ -1,0 +1,179 @@
+
+    <html>
+    <head>
+        <title>SAR Data Exploration Report</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1 { color: #333; }
+            h2 { color: #666; border-bottom: 1px solid #ccc; padding-bottom: 5px; }
+            table { border-collapse: collapse; width: 100%; margin: 20px 0; }
+            th { background-color: #f0f0f0; padding: 10px; text-align: left; border: 1px solid #ddd; }
+            td { padding: 8px; border: 1px solid #ddd; }
+            .metadata { background-color: #f9f9f9; padding: 10px; margin: 10px 0; border-radius: 5px; }
+        </style>
+    </head>
+    <body>
+        <h1>SAR Data Exploration Report</h1>
+        <div class="metadata">
+            <p><strong>Generated:</strong> 2025-09-16 14:33:46</p>
+            <p><strong>Data Path:</strong> C:\Users\Emma Underwood\Documents\GitHub\LiveEO\data\raw</p>
+        </div>
+
+        <h2>Dataset Summary</h2>
+        <table border="1" class="dataframe" id="summary-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Dataset</th>
+      <th>Total_Records</th>
+      <th>Unique_Images</th>
+      <th>Start_Date</th>
+      <th>End_Date</th>
+      <th>Polarizations</th>
+      <th>Modes</th>
+      <th>Avg_Look_Angle</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Capella Archive</td>
+      <td>124958</td>
+      <td>124958</td>
+      <td>2020-10-19</td>
+      <td>2025-08-25</td>
+      <td>2</td>
+      <td>3</td>
+      <td>33.9</td>
+    </tr>
+    <tr>
+      <td>Capella STAC</td>
+      <td>124449</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+    </tr>
+  </tbody>
+</table>
+    
+        <h2>Polarization Distribution</h2>
+        <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Polarization</th>
+      <th>Count</th>
+      <th>Percentage</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>HH</td>
+      <td>118503</td>
+      <td>94.8</td>
+    </tr>
+    <tr>
+      <td>VV</td>
+      <td>6455</td>
+      <td>5.2</td>
+    </tr>
+  </tbody>
+</table>
+        
+        <h2>Acquisition Mode Distribution</h2>
+        <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Acquisition Mode</th>
+      <th>Count</th>
+      <th>Percentage</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>spotlight</td>
+      <td>93427</td>
+      <td>74.8</td>
+    </tr>
+    <tr>
+      <td>stripmap</td>
+      <td>21722</td>
+      <td>17.4</td>
+    </tr>
+    <tr>
+      <td>sliding_spotlight</td>
+      <td>9809</td>
+      <td>7.8</td>
+    </tr>
+  </tbody>
+</table>
+        
+        <h2>Temporal Distribution (Recent Months)</h2>
+        <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Month</th>
+      <th>Image Count</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>2020-10-01 00:00:00+02:00</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>2020-11-01 00:00:00+01:00</td>
+      <td>33</td>
+    </tr>
+    <tr>
+      <td>2020-12-01 00:00:00+01:00</td>
+      <td>124</td>
+    </tr>
+    <tr>
+      <td>2021-01-01 00:00:00+01:00</td>
+      <td>264</td>
+    </tr>
+    <tr>
+      <td>2021-02-01 00:00:00+01:00</td>
+      <td>324</td>
+    </tr>
+    <tr>
+      <td>2021-03-01 00:00:00+01:00</td>
+      <td>376</td>
+    </tr>
+    <tr>
+      <td>2021-04-01 00:00:00+02:00</td>
+      <td>460</td>
+    </tr>
+    <tr>
+      <td>2021-05-01 00:00:00+02:00</td>
+      <td>589</td>
+    </tr>
+    <tr>
+      <td>2021-06-01 00:00:00+02:00</td>
+      <td>597</td>
+    </tr>
+    <tr>
+      <td>2021-07-01 00:00:00+02:00</td>
+      <td>1272</td>
+    </tr>
+    <tr>
+      <td>2021-08-01 00:00:00+02:00</td>
+      <td>952</td>
+    </tr>
+    <tr>
+      <td>2021-09-01 00:00:00+02:00</td>
+      <td>991</td>
+    </tr>
+  </tbody>
+</table>
+        
+        <h2>Available Columns</h2>
+        <div class="metadata">
+            <p><strong>Total columns:</strong> 21</p>
+            <p><strong>Column names:</strong> id, datetime, mode, products, url, look_angle, incd_angle, sqnt_angle, num_looks, observ_dir, orbt_state, orbt_plane, polariztn, slc, geo, gec, sicd, sidd, cphd, geom, ... (1 more)</p>
+        </div>
+        
+    </body>
+    </html>
+    
