@@ -108,6 +108,6 @@ Important: Each chosen pair will become a training sample, good training data = 
 
 ### Summary presentation and visual report
 
-[canva.com/geoemma_pres]([https://www.canva.com/design/DAGzCb8joTM/nPVwQkb3AdVZH0OdEDPAdw/edit](https://www.canva.com/design/DAGzCb8joTM/vli508hT3hssYSsTtEexSg/view?utm_content=DAGzCb8joTM&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=had479e8a41))
+[canva.com/geoemma_pres](https://www.canva.com/design/DAGzCb8joTM/vli508hT3hssYSsTtEexSg/view?utm_content=DAGzCb8joTM&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=had479e8a41)
 
 
