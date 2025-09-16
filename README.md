@@ -2,7 +2,8 @@
 
 LiveEO AI Team Data Engineer Internship 2025
 Author: Emma L Underwood
-Date: 15.09.2025
+Date created: 15.09.2025
+Last update: 16.09.2025
 
 ## Backstory
 
