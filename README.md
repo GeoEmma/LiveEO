@@ -46,19 +46,14 @@ Important: Each chosen pair will become a training sample, good training data = 
 
 ### Objective 1: Explore data
 
-* \[ ] Written report - diff between SAR and optical, and use cases: Section name "Satellite data exploration"
-* \[ ] Table in report - summarise Capella files and metadata showing stats, maps: Section name "Exploratory data analysis"
+* \[ ] Diff between SAR and optical, and use cases: see presentation slide venn diagram
+* \[ ] Summary report - summarise Capella files and metadata showing stats, maps: Section name "data_exploration_report"
 
 ### Objective 2: Assemble Capella pairs
 
 * \[ ] Table in report - summary (count) of all filtered pairs found
-* \[ ] Map in report - display matching pairs
-* \[ ] Written report - write out metadata steps and filtering methods: Section name "Filtering methods"
-
-### Bonus objective: Find Quartets
-
-* \[ ] Table in report - summary (count) of all quartets found
-* \[ ] Map in report - display matching quartets
+* \[ ] Map - display matching pairs (see strict_pairs_map_ELU_16092025.html)
+* \[ ] write out metadata steps and filtering methods: see presentation slides
 
 ### Repository structure
 
@@ -84,8 +79,6 @@ Important: Each chosen pair will become a training sample, good training data = 
 
 │       ├── 📊 EXPLORATION OUTPUTS
 
-│       │   ├── 📄 data\_exploration\_summary.csv      (Quick reference metrics)
-
 │       │   ├── 📄 data\_exploration\_detailed.json    (Complete statistics)
 
 │       │   └── 📄 data\_exploration\_report.html      (Formatted report)
@@ -96,43 +89,24 @@ Important: Each chosen pair will become a training sample, good training data = 
 
 │       │   ├── 📄 pairs\_strict\_1deg.parquet        (Highest quality pairs)
 
-│       │   ├── 📄 pairs\_moderate\_2deg.parquet      (Balanced quality/quantity)
+│       │   ├── 📄 pairs\_moderate\_2.0deg.parquet      (Balanced quality/quantity)
 
-│       │   └── 📄 pairs\_relaxed\_5deg.parquet      (Maximum quantity)
+│       │   └── 📄 pairs\_relaxed\_5.0deg.parquet      (Maximum quantity)
 
 │       │
 
 │       ├── 🗺️ VISUALISATION OUTPUTS
 
-│       │   └── 📄 pairs\_map.html                   (Interactive Folium map)
+│       │   └── 📄 strict_pairs_map_ELU_16092025.html                   (Interactive Folium map)
 
-│       │
+├── 📄 LiveEO_capella_pairs.ipynb     \[MAIN PROCESSING PIPELINE]
 
-│       └── ✅ FINAL TRAINING DATASETS
-
-│           ├── 📄 final\_pairs\_\[N].parquet          (Primary format for ML)
-
-│           ├── 📄 final\_pairs\_\[N].csv              (Human-readable)
-
-│           └── 📄 final\_pairs\_\[N]\_metadata.json    (Dataset documentation)
-
-│
-
-├── 📁 figures/                     \[OPTIONAL - for static plots]
-
-│
-
-├── 📄 sar\_pair\_workflow.ipynb     \[MAIN PROCESSING PIPELINE]
-
-├── 📄 .gitignore                  \[Excludes large data files]
+├── 📄 .gitignore                  \[Excludes large data files and derived metadata]
 
 └── 📄 README.md                   \[Project documentation][](https://github.com/GeoEmma/LiveEO)
 
-### Presentation
+### Summary presentation and visual report
 
-[canva.com/](https://www.canva.com/design/DAGzCb8joTM/nPVwQkb3AdVZH0OdEDPAdw/edit)
+[canva.com/geoemma_pres]([https://www.canva.com/design/DAGzCb8joTM/nPVwQkb3AdVZH0OdEDPAdw/edit](https://www.canva.com/design/DAGzCb8joTM/vli508hT3hssYSsTtEexSg/view?utm_content=DAGzCb8joTM&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=had479e8a41))
 
-### Report
-
-\## See Outputs > data\_exploration\_report.html
 
